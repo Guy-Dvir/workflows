@@ -1,0 +1,359 @@
+.vJPrr ._1sHSL{
+    width: calc(100% - 47px - 16px);
+}
+
+._2bJ41{
+/*    margin: -50px 0px -50px 0px;*/
+}
+
+._2bJ41, ._3qlPB{
+    max-width: 370px;
+}
+
+._181hk{
+    border-radius: 0px;
+}
+
+.vJPrr {
+    max-width: 337px;
+}
+
+.chat-room-header{
+    height: 40px;
+    padding: 17px 30px 16px 16px;
+}
+
+.chat-room-header img{
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 16px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 40px;
+        vertical-align: middle;
+}
+
+.chat-room-header .profile-pic{
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 16px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 40px;
+        vertical-align: middle;
+        height: 38px;
+        color: white;
+}
+
+.chat-room-header .profile-pic .avatar-icon{
+        font-family: HelveticaNeueW01-55Roma,HelveticaNeueW02-55Roma,HelveticaNeueW10-55Roma,Helvetica Neue,Helvetica,Arial,\\30E1\30A4\30EA\30AA,meiryo,\\30D2\30E9\30AE\30CE\89D2\30B4 pro w3,hiragino kaku gothic pro,"sans-serif";
+    text-align: center;
+    line-height: 36px;
+    margin: 10px;
+}
+
+        
+
+
+.chat-room-title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.chat-room-title .name{
+    font-weight: 600;
+}
+
+
+.chat-room-title span:first-child{
+margin-right: 7px;
+}
+
+
+.chat-room-title .name .status-alert{
+    background-color: #60bc57;
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    border-radius: 9px;
+
+    
+}
+
+.chat-room-title .info{
+
+}
+
+.chat-room-actions{
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin-top: 9px;
+}
+
+.chat-room-actions>div{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.chat-room-actions>div span{
+    vertical-align: middle;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.avatar-icon{
+    height: 38px;
+    margin-top: 25%;
+}    
+
+
+.LO_IB{
+    left: 0px;    
+}
+
+
+
+.all-messages-section{
+    width: 337px; 
+            transition: width 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+
+.all-messages-section.hide{
+    width: 80px; 
+}
+
+.all-messages-section.hide .all-messages-header{
+padding: 17px 8px 16px 16px
+}
+
+.all-messages-section.hide .vJPrr ._1sHSL{
+    opacity: 0; 
+    display: none;
+}
+
+.all-messages-section .vJPrr ._1sHSL{
+/*
+    transition: opacity 0.3s;
+        transition-delay: 2s;
+*/
+
+    opacity: 1; 
+    display: inline-block;
+}
+
+.all-messages-section.hide .all-messages-title{
+display: none;
+}
+
+.all-messages-section.hide .wix-toggle,
+.all-messages-section.hide .all-messages-title{
+    opacity: 0;
+    transition: opacity 0s;
+
+}
+
+
+wix-toggle .wix-toggle,
+.all-messages-section .all-messages-title{
+    opacity: 1;
+    transition: opacity 0.3s 0.1s;
+    
+
+}
+.all-messages-section .all-messages-icon{
+display: none;
+}
+
+.all-messages-section.hide .all-messages-icon{
+display: inline-block;
+}
+
+.all-messages-section.hide .all-messages-icon svg{
+margin-top: 8px;
+}
+
+
+.all-messages-section.hide .arrow{
+position: relative;
+    top:-7px;
+    margin-left: 4px;
+    margin-right: 0px;
+}
+
+
+
+
+.all-messages-header{
+        height: 40px;
+        padding: 17px 30px 16px 16px;
+        color: #7a92a5;
+}
+
+.vJPrr._2IHfi {
+    background: #f0f8fb;
+}
+
+.all-messages-header>span{
+line-height: 38px;
+}
+
+.all-messages-header .arrow {
+    width: 6.72px;
+    height: 6.72px;
+    border-bottom: 1px solid #7a92a5;
+    border-right: 1px solid #7a92a5;
+    display: inline-block;
+    margin-right: 125px;
+    transform: rotate(45deg) translateY(-50%);
+}
+.contact-info-section{
+     font-family: HelveticaNeueW01-45Ligh,HelveticaNeueW02-45Ligh,HelveticaNeueW10-45Ligh,sans-serif;
+     right: 0;
+     background: #fff;
+     width: 291px;
+     height: 100vh;
+    
+        transition: opacity 0.15s, width 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+
+}
+
+.contact-info-section.hide{
+    width: 0;
+    opacity: 0;
+}
+
+.contact-info-section .contact-info-header{
+    color:#fff;
+    width: 100%;
+    height: 183px;
+    background-color: rgb(22, 175, 250);
+    padding: 0px 27px;
+}
+
+.contact-info-header .avatar-icon{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    background-color: rgb(78, 183, 245);
+    box-shadow: 1px 0px 14px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 64px;
+    text-align: center;
+    line-height: 64px;
+    margin-top: 62px;
+}
+
+.show-contact-info-button{
+   cursor: pointer !important;
+   width: 12px;
+   height: 19px;
+   background: #fff;
+}
+
+.hide-contact-info-button{
+    cursor: pointer;
+}
+
+
+.contact-info-title .name{
+    margin-top: 9px;
+}
+
+.contact-info-section.hide .contact-info-info{
+    opacity: 0;
+    transition: opacity 0.02s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.contact-info-info{
+        opacity: 1;
+
+    transition: opacity 0.15s 0.12s cubic-bezier(0.23, 1, 0.32, 1);
+    padding: 0px 27px;
+    height: 100%;
+}
+
+.contact-info-info h3{
+    font-weight: 600;
+    line-height: 18px;
+    margin: 20px 0px 3px 0px;
+    color: rgb(22, 45, 61);
+    font-size: 14px;
+}
+
+.contact-info-info p{
+    color: rgb(50, 83, 106);
+    font-size: 14px;
+}
+
+.contact-info-info ul{list-style: none;}
+
+.contact-info-info ul li{
+    color: rgb(50, 83, 106);
+    display: inline-block;
+    background-color: rgb(218, 239, 254);
+    padding: 5px 14px;
+    border-radius: 40px;
+    margin-top: 11px;
+    font-size: 14px;
+}
+
+.select2-search-choice-close {
+    background: url(https://static.parastorage.com/services/wix-ecommerce-storemanager/1.1368.0/bower_components/select2/select2.png) right top no-repeat !important;
+    position: relative;
+    display: inline-block;
+    left: 3px;
+    top: 2px;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+}
+
+.contact-info-info a{
+margin-top: 10px;
+    display: inline-block;
+}
+
+.contact-info-info button {
+    position: relative;
+    top: calc(100vh - 689px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.edit-contact-close{
+    background: #0081ce;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 0;
+    font-size: 9px;
+    cursor: pointer !important;
+    color: #fff;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    outline: 0;
+    padding-top: 0;
+}
+
+.wix-style-svg-font-icons-dots:before{
+    color: rgb(50, 83, 106);
+    margin-top: -4px;
+}
+
+.main-content .show-contact-info-button,
+.main-content.hide .hide-contact-info-button{
+    display: inline-block;
+}
+
+.main-content .hide-contact-info-button,
+.main-content.hide .show-contact-info-button{
+    display: none;
+}
+

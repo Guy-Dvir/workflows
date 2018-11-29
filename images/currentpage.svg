@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="13px" viewBox="0 0 17 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.918,11.298 L19,11.5 L18.918,11.701 C18.813,11.959 16.293,18 10.5,18 C4.707,18 2.187,11.959 2.082,11.701 L2,11.5 L2.082,11.298 C2.187,11.041 4.707,5 10.5,5 C16.293,5 18.813,11.041 18.918,11.298 Z M10.5,16.964 C15.08,16.964 17.435,12.512 17.911,11.5 C17.433,10.49 15.068,6.036 10.5,6.036 C5.92,6.036 3.565,10.488 3.089,11.499 C3.567,12.51 5.932,16.964 10.5,16.964 Z M10.5,14.75 C8.70507456,14.75 7.25,13.2949254 7.25,11.5 C7.25,9.70507456 8.70507456,8.25 10.5,8.25 C12.2949254,8.25 13.75,9.70507456 13.75,11.5 C13.75,13.2949254 12.2949254,14.75 10.5,14.75 Z M10.5,13.75 C11.7426407,13.75 12.75,12.7426407 12.75,11.5 C12.75,10.2573593 11.7426407,9.25 10.5,9.25 C9.25735931,9.25 8.25,10.2573593 8.25,11.5 C8.25,12.7426407 9.25735931,13.75 10.5,13.75 Z" id="path-1"></path>
+    </defs>
+    <g id="UX" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-copy-3" transform="translate(-766.000000, -217.000000)">
+            <g id="Group-14" transform="translate(594.000000, 203.000000)">
+                <g id="Group-13">
+                    <g id="Group-8">
+                        <g id="Group-16" transform="translate(163.000000, 2.000000)">
+                            <rect id="BG-Copy-2" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="36" height="36" rx="18"></rect>
+                            <g id="01-General-/-Primitives-/-Icons-/-Visible" transform="translate(7.000000, 7.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Icon" fill="#162D3D" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <g id="01-General-/-Primitives-/-Fill-/-Dark" mask="url(#mask-2)" fill="#162D3D" fill-rule="evenodd">
+                                    <rect id="Fill-Dark" x="0" y="0" width="22" height="22"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

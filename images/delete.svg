@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="15px" viewBox="0 0 13 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>01 General / 1.4a Icon Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16,6 L16,15 C16,16.6568542 14.6568542,18 13,18 L8,18 C6.34314575,18 5,16.6568542 5,15 L5,6 L4,6 L4,5 L17,5 L17,6 L16,6 Z M8,8 L9,8 L9,14 L8,14 L8,8 Z M10,8 L11,8 L11,14 L10,14 L10,8 Z M12,8 L13,8 L13,14 L12,14 L12,8 Z M6,15 C6,16.1045695 6.8954305,17 8,17 L13,17 C14.1045695,17 15,16.1045695 15,15 L15,6 L6,6 L6,15 Z M12,5 L12,4 L9,4 L9,5 L8,5 L8,4 C8,3.44771525 8.44771525,3 9,3 L12,3 C12.5522847,3 13,3.44771525 13,4 L13,5 L12,5 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Item/Visitor" transform="translate(-173.000000, -79.000000)">
+            <g id="01-General-/-1.4a-Icon" transform="translate(168.000000, 75.000000)">
+                <g id="01-General-/-Primitives-/-Icons-/-Delete" transform="translate(1.000000, 1.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Icon" fill="#32536A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <g id="01-General-/-Primitives-/-Fill-/-Standard" mask="url(#mask-2)" fill="#32536A" fill-rule="evenodd">
+                        <rect id="Fill-Blue" x="0" y="0" width="22" height="22"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

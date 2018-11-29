@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>01 General / 1.4a Icon Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.2928932,17 L13.6661558,13.3732625 L11.9761871,14.8218071 C11.4144525,15.3032939 10.5855475,15.3032939 10.0238129,14.8218071 L8.33384425,13.3732625 L4.70710678,17 L17.2928932,17 Z M18,16.2928932 L18,9.6585389 L14.4276554,12.7205486 L18,16.2928932 Z M4,16.2928932 L7.57234464,12.7205486 L4,9.6585389 L4,16.2928932 Z M4.09041571,8.42025963 L10.6746043,14.0625505 C10.8618492,14.2230461 11.1381508,14.2230461 11.3253957,14.0625505 L17.9095841,8.42025943 L11.3292523,2.61686399 C11.1407393,2.45191512 10.8592607,2.45191512 10.6707477,2.61686399 L4.09041571,8.42025963 Z M19,17 C19,17.5522847 18.5522847,18 18,18 L4,18 C3.44771525,18 3,17.5522847 3,17 L3,8.45376823 C3,8.16540564 3.12448043,7.89107962 3.34149539,7.70119153 L10.0122431,1.8642873 C10.5777821,1.36944069 11.4222179,1.36944069 11.9877569,1.8642873 L18.6585046,7.70119153 C18.8755196,7.89107962 19,8.16540564 19,8.45376823 L19,17 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Item/Visitor" transform="translate(-142.000000, -77.000000)">
+            <g id="01-General-/-1.4a-Icon" transform="translate(138.000000, 75.000000)">
+                <g id="01-General-/-Primitives-/-Icons-/-EmailOpen" transform="translate(1.000000, 1.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="01-General-/-Primitives-/-Fill-/-Dark" mask="url(#mask-2)" fill="#32536A" fill-rule="evenodd">
+                        <rect id="Fill-Dark" x="0" y="0" width="22" height="22"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
