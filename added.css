@@ -1818,7 +1818,7 @@ h3.keyboard_title {
   left:auto;
   right:0;
   bottom:0;
-   background:red;  /* -------- */
+   background:transparent;  /* -------- */
   z-index: 99999999999;
 }
 
