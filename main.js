@@ -155,11 +155,11 @@ $(function () {
               $('#cardAS .inner-card').addClass('pulse').delay(600).queue(function () {
                 $('#cardAS .inner-card').removeClass('pulse').dequeue();
               });
-            }, 200);
+            }, 350);
     
             setTimeout(() => {
               $('#cardAS').removeClass('unppoped').dequeue();
-            }, 100);
+            }, 200);
 
           })
 
@@ -191,11 +191,11 @@ $(function () {
           $('#heroCard .inner-card').addClass('pulse').delay(600).queue(function () {
             $('#heroCard .inner-card').removeClass('pulse').dequeue();
           });
-        }, 200);
+        }, 350);
 
         setTimeout(() => {
           hCard.removeClass('unppoped').dequeue();
-        }, 100);
+        }, 200);
 
         if (nextList.closest('.list-wrapper').attr('data-list-type') == 'wonList') {
           $('#wonModal').show();
