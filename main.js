@@ -149,16 +149,19 @@ $(function () {
 
         setTimeout(() => {
           $('#cvReceivedList').prepend(createNewCard("Amy Sandberg", "AS", "Job application"));
-          $('#cvReceivedList').sortable("refresh");
-
-          setTimeout(() => {
-            $('#cardAS .inner-card').addClass('pulse');
+          $('#cvReceivedList').sortable("refresh").delay(180).queue(function () {
 
             setTimeout(() => {
-              $('#cardAS .inner-card').removeClass('pulse');
-            }, 600);
+              $('#cardAS .inner-card').addClass('pulse').delay(600).queue(function () {
+                $('#cardAS .inner-card').removeClass('pulse').dequeue();
+              });
+            }, 200);
+    
+            setTimeout(() => {
+              $('#cardAS').removeClass('unppoped').dequeue();
+            }, 100);
 
-          }, 150);
+          })
 
 
         }, 2200);
@@ -331,7 +334,7 @@ $(function () {
 
   function createNewCard(name, initials, source) {
     return `
-    <div id="card${initials}" class="ui-state-default card ooopen-cp-btn a-popped unpopped">
+    <div id="card${initials}" class="ui-state-default card ooopen-cp-btn a-popped unppoped">
     <div class="inner-card">
         <div class="user-card-title">
             Birthday for Sum, Brooklyn
