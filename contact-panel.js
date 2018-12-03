@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
     const urlVars = getUrlVars();
-    const disableClick = false;
 
     if (urlVars) {
         reactToUrl(urlVars)
@@ -14,11 +13,9 @@ $(document).ready(function () {
     //    open contact panel 
     //    $(".open-cp-btn").click(function(){
     $(document).on('click', '.open-cp-btn .main-info', function () {
-        if(disableClick == false){
-            $(".contact-panel-container").addClass("show");
-            contactPanelBtn.addClass('a-unpopped');
-            contactPanelBtn.removeClass('a-popped');
-        }
+        $(".contact-panel-container").addClass("show");
+        contactPanelBtn.addClass('a-unpopped');
+        contactPanelBtn.removeClass('a-popped');
     });
 
     $(".close-cp-btn").click(function () {
@@ -384,6 +381,7 @@ $(document).ready(function () {
             $('#invoiceSentMsg').removeClass('hide');
 
         } else if (urlVars.state == "pqsent") {
+            $('#heroCard').detach().prependTo('#talkedList');
             setTimeout(() => {
                 $('#heroCard').detach().prependTo('#priceQuoteList');
 
@@ -395,7 +393,7 @@ $(document).ready(function () {
                     }, 600);
 
                 }, 150);
-            }, 1500);
+            }, 1800);
 
         } else if (urlVars.state == "goback") {
 

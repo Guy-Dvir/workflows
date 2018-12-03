@@ -52,7 +52,7 @@ $(function () {
     closeDropdowns();
   })
 
-  $('.btn-wrapper').on('click', addNewCardSection);
+  //$('.btn-wrapper').on('click', addNewCardSection);
 
   $('[data-hook="header-close-button"]').click(function () {
     $('.modal-wrapper').fadeOut(200);
@@ -74,7 +74,7 @@ $(function () {
       setTimeout(() => {
         moveCardToNextList();
         willForwardCardOnSubmit = false;
-      }, 1600);
+      }, 2200);
     }
 
   });
@@ -177,22 +177,33 @@ $(function () {
     const hCard = $('#heroCard');
     const nextList = hCard.closest('.list-wrapper').next('.list-wrapper').find('.list');
 
-    if (nextList)
-      moveCardTo(hCard, nextList);
-    setTimeout(() => {
-      $('#heroCard .inner-card').addClass('pulse');
-      setTimeout(() => {
-        $('#heroCard .inner-card').removeClass('pulse');
-      }, 600);
+    hCard.addClass('a-popped');
 
-      if (nextList.closest('.list-wrapper').attr('data-list-type') == 'wonList') {
-        $('#wonModal').show();
-        $('.modal-wrapper').fadeIn(200);
-        initConfetti();
-      }
+    if (nextList) {
+      hCard.addClass('unppoped').delay(180).queue(function () {
+        moveCardTo(hCard, nextList);
 
+        //pulse effect
+        setTimeout(() => {
+          $('#heroCard .inner-card').addClass('pulse').delay(600).queue(function () {
+            $('#heroCard .inner-card').removeClass('pulse').dequeue();
+          });
+        }, 200);
 
-    }, 150);
+        setTimeout(() => {
+          hCard.removeClass('unppoped').dequeue();
+        }, 100);
+
+        if (nextList.closest('.list-wrapper').attr('data-list-type') == 'wonList') {
+          $('#wonModal').show();
+          $('.modal-wrapper').fadeIn(200);
+          initConfetti();
+        }
+
+      })
+
+    }
+
   }
 
   function closeDropdowns() {
@@ -200,14 +211,20 @@ $(function () {
     $('._2XqXP').removeClass('_22w6r');
   }
 
-  function handleSortStart() {
-    disableClick = true;
+  function handleSortStart(event) {
+    $(document).off('click', '.open-cp-btn .main-info');
   }
 
   function handleSortStop(event, ui) {
     checkIfWonList(event, ui);
     updateCardCount();
-    disableClick = false;
+    setTimeout(() => {
+      $(document).on('click', '.open-cp-btn .main-info', function () {
+        $(".contact-panel-container").addClass("show");
+        contactPanelBtn.addClass('a-unpopped');
+        contactPanelBtn.removeClass('a-popped');
+      });
+    }, 200);
   }
 
   function addNewCardSection() {
@@ -314,7 +331,7 @@ $(function () {
 
   function createNewCard(name, initials, source) {
     return `
-    <div id="card${initials}" class="ui-state-default card ooopen-cp-btn">
+    <div id="card${initials}" class="ui-state-default card ooopen-cp-btn a-popped unpopped">
     <div class="inner-card">
         <div class="user-card-title">
             Birthday for Sum, Brooklyn
@@ -402,8 +419,8 @@ $(function () {
   }
 
   function create(i) {
-    var width = Math.random() * 8;
-    var height = width * .6;
+    var width = Math.random() * 9;
+    var height = width * .75;
     var colourIdx = Math.ceil(Math.random() * 3);
     var colour = "red";
     switch (colourIdx) {
@@ -422,8 +439,8 @@ $(function () {
       "top": -Math.random() * 60 - 40 + "%",
       "left": Math.random() * 100 + "%",
       "opacity": Math.random() + 0.5,
-      "transform": "rotate(" + Math.random() * 360 + "deg)",
-      "z-index": "11"
+      "transform": "rotate(" + Math.random() * 360 + "deg) skew(" + Math.random() * 20 + "deg," + Math.random() * 20 + "deg)",
+      "z-index": "9999999"
     }).appendTo('body');
   }
 
